@@ -1,6 +1,5 @@
 #set align(center)
-#set text(size: 10pt)
-#set text(font: "Verdana")
+#set text(font: "Verdana", size: 10pt)
 
 = Owen Colley
 
