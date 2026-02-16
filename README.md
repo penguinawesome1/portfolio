@@ -1,11 +1,15 @@
 # Owen Colley - Portfolio 🐊
 
-## Resume
+## Links
 
-![Build Status](https://github.com/penguinawesome1/portfolio/actions/workflows/build.yml/badge.svg?branch=main)
+- **[Live Portfolio Site](https://penguinawesome1.github.io/portfolio/)** — Built with SvelteKit 5 & Tailwind
+- **[Latest Resume (PDF)](https://github.com/penguinawesome1/portfolio/raw/main/site/static/resume.pdf)** — Download the most recent version
 
-[Download the Latest PDF Here](https://github.com/penguinawesome1/portfolio/releases/download/latest/Owen_Colley_Resume.pdf)
+---
 
-## Site
+## Status
 
-![Build Status](https://github.com/penguinawesome1/portfolio/actions/workflows/deploy.yml/badge.svg?branch=main)
+| Service             | Status                                                                                                           |
+| :------------------ | :--------------------------------------------------------------------------------------------------------------- |
+| **Site Deployment** | ![Build Status](https://github.com/penguinawesome1/portfolio/actions/workflows/deploy.yml/badge.svg?branch=main) |
+| **Resume Build**    | ![Build Status](https://github.com/penguinawesome1/portfolio/actions/workflows/build.yml/badge.svg?branch=main)  |
