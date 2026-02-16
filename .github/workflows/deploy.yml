@@ -24,11 +24,11 @@ jobs:
           cache-dependency-path: "site/package-lock.json"
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
         working-directory: site
 
       - name: Build
-        run: npm run build
+        run: npx --no-install vite build
         working-directory: site
 
       - name: Upload Artifacts
