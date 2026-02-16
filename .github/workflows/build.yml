@@ -18,7 +18,7 @@ jobs:
         uses: typst-community/setup-typst@v3
 
       - name: Compile Typst
-        run: typst compile resume/main.typ Owen_Colley_Resume.pdf
+        run: typst compile resume/main.typ Owen_Colley_Resume.pdf --font-path fonts
 
       - name: Update Release
         uses: softprops/action-gh-release@v2
