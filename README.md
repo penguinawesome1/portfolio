@@ -3,7 +3,7 @@
 ## Links
 
 - **[Live Portfolio Site](https://penguinawesome1.github.io/portfolio/)** — Built with SvelteKit 5 & Tailwind
-- **[Latest Resume (PDF)](https://github.com/penguinawesome1/portfolio/raw/main/site/static/resume.pdf)** — Download the most recent version
+- **[Latest Resume (PDF)](https://github.com/penguinawesome1/portfolio/releases/latest/download/Owen_Colley_Resume.pdf)** — Download the most recent version
 
 ---
 
