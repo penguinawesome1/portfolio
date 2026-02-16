@@ -1,0 +1,9 @@
+# Package Managers
+site/package-lock.json
+site/pnpm-lock.yaml
+site/yarn.lock
+site/bun.lock
+site/bun.lockb
+
+# Miscellaneous
+site/static/
