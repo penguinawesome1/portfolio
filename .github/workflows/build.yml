@@ -1,0 +1,28 @@
+name: Build and Release Resume
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_paper:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Typst
+        uses: chuvayesh/setup-typst@v1
+
+      - name: Compile Typst
+        run: typst compile resume/main.typ Owen_Colley_Resume.pdf
+
+      - name: Update Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: Owen_Colley_Resume.pdf
+          tag_name: latest
+          name: Latest Build
+          body: "Automatically generated from the latest commit."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
