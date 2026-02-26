@@ -6,7 +6,7 @@
 #text(
   size: 9pt,
 )[
-  Gainesville, FL #sym.dot (555)-555-5555 #sym.dot ocolley [at] ufl.edu #sym.dot #link("https://www.linkedin.com/in/owenhcolley")[in/owenhcolley] #sym.dot #link("https://www.github.com/penguinawesome1")[gh/penguinawesome1]
+  Gainesville, FL #sym.dot (555)-555-5555 #sym.dot ocolley [at] ufl [dot] edu #sym.dot #link("https://www.linkedin.com/in/owenhcolley")[in/owenhcolley] #sym.dot #link("https://www.github.com/penguinawesome1")[gh/penguinawesome1]
 ]
 
 #set align(left)
@@ -15,13 +15,11 @@
 *EDUCATION*
 #line(length: 100%, stroke: 0.5pt)
 
-*University of Florida* #h(1fr) Expected May 2029\
-_Herbert Wertheim College of Engineering_
-- *Bachelor of Science in Computer Science*
-- *GPA:* 3.92
-- *Relevant Coursework:* (All Grade A) Programming Fundamentals II, Calculus 3, Discrete Mathematics
+*University of Florida* #h(1fr) Expected May 2029 \
+_Bachelor of Science in Computer Science_ \
+- *GPA:* 3.92/4.00 #sym.dot Herbert Wertheim College of Engineering Dean's List (Fall 2025)
+- *Relevant Coursework:* Programming Fundamentals II, Calculus 3, Discrete Mathematics
 - *In Progress:* Data Structures and Algorithms
-
 #v(2em)
 
 *AWARDS & HONORS*
