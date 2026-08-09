@@ -1,5 +1,5 @@
 #set align(center)
-#set text(font: "Verdana", size: 10pt)
+#set text(font: "Verdana", size: 9pt)
 
 = Owen Colley
 
@@ -17,9 +17,8 @@
 
 *University of Florida* #h(1fr) Expected May 2029 \
 _Bachelor of Science in Computer Science_ \
-- *GPA:* 3.92/4.00 #sym.dot Herbert Wertheim College of Engineering Dean's List (Fall 2025)
-- *Relevant Coursework:* Programming Fundamentals II, Calculus 3, Discrete Mathematics
-- *In Progress:* Data Structures and Algorithms
+- *GPA:* 3.96/4.00 #sym.dot Herbert Wertheim College of Engineering Dean's List (Fall 2025 & Spring 2026)
+- *Relevant Coursework:* Data Structures and Algorithms, Programming Fundamentals II, Computational Linear Algebra, Calculus 3, Discrete Mathematics
 #v(2em)
 
 *AWARDS & HONORS*
@@ -34,7 +33,7 @@ _Bachelor of Science in Computer Science_ \
 *EXPERIENCE*
 #line(length: 100%, stroke: 0.5pt)
 
-*Natural Language Processing with PyTorch* #h(1fr) 2026--Present\
+*Natural Language Processing with PyTorch* #h(1fr) 2026\
 _Independent Study under Professor Michael Link_
 - Investigating fundamental text analysis methods and model architectures using PyTorch.
 
@@ -51,5 +50,18 @@ _Independent Study under Professor Michael Link_
 *SKILLS*
 #line(length: 100%, stroke: 0.5pt)
 
-- *Languages:* C++, Python, Typescript, Rust, Gleam (Functional Programming)
-- *Frameworks & Tools:* Git, GitHub, Linux, Svelte, Bevy, Typst, LaTeX, VS Code
+- *Languages:* C++, Python, Typescript, WGSL, Rust, Gleam
+- *Frameworks & Tools:* WebGPU, Git, GitHub, Linux, Svelte, Bevy, Typst, LaTeX, VS Code, Helix
+
+#v(2em)
+
+*PROJECTS*
+#line(length: 100%, stroke: 0.5pt)
+
+*Floralcraft* #h(1fr) #link("https://penguinawesome1.github.io/floralcraft/")[Live Demo]
+- Built a WebGPU/TypeScript voxel engine with real-time path tracing, infinite XYZ world generation, and a 1000-block view distance.
+- Implemented block breaking, placing, and physics-based collision.
+- Achieved 100 FPS on an NVIDIA RTX 4050 via custom DDA traversal with mip-mapped empty-space skipping.
+- Prototyped earlier iterations in Rust using the Bevy engine.
+- Currently architecting multiplayer support and persistent world saves.
+More projects: #link("https://github.com/penguinawesome1?tab=repositories")[github.com/penguinawesome1]
